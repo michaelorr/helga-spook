@@ -11,6 +11,3 @@ def spook(client, channel, nick, message, cmd, args):
     num = random.randint(6, 15)
     res = random.sample(words, num)
     return u' '.join(res)
-
-
-print spook()
