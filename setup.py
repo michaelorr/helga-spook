@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-version = '1.1.1'
+from helga_spook import __version__ as version
 
 setup(name='helga-spook',
       version=version,
@@ -18,7 +18,7 @@ setup(name='helga-spook',
       license='LICENSE',
       packages=find_packages(),
       include_package_data=True,
-      py_modules=['helga_spook'],
+      py_modules=['helga_spook.plugin'],
       zip_safe=True,
       entry_points = dict(
           helga_plugins=[
