@@ -22,7 +22,7 @@ setup(name='helga-spook',
       zip_safe=True,
       entry_points = dict(
           helga_plugins=[
-              'spook = helga_spook:spook',
+              'spook = helga_spook.plugin:spook',
           ],
       ),
 )

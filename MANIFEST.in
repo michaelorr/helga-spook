@@ -1,4 +1,4 @@
 include *.rst
-include spook.lines
+include helga_spook/spook.lines
 include LICENSE
 include MANIFEST
