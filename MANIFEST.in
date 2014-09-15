@@ -1,0 +1,4 @@
+include *.rst
+include spook.lines
+include LICENSE
+include MANIFEST
